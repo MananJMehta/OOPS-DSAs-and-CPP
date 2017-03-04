@@ -144,13 +144,13 @@ void RomanNumeral::toRoman()
 				int x = hundred % 5;
 				str.append("D");
 				for (int i = 0; i<x; i++)
-					str.append("C");
+				str.append("C");
 			}
 		}
 		else
-        {
+       		{
 			for (int i = 0; i<hundred; i++)
-				str.append("C");
+			str.append("C");
 		}
 	}
 	if (ten != 0)
@@ -166,13 +166,13 @@ void RomanNumeral::toRoman()
 				int x = ten % 5;
 				str.append("L");
 				for (int i = 0; i<x; i++)
-					str.append("X");
+				str.append("X");
 			}
 		}
 		else
-        {
+       	 	{
 			for (int i = 0; i<ten; i++)
-				str.append("X");
+			str.append("X");
 		}
 	}
 	if (unit != 0)
@@ -188,13 +188,13 @@ void RomanNumeral::toRoman()
 				int x = unit % 5;
 				str.append("V");
 				for (int i = 0; i<x; i++)
-					str.append("I");
+				str.append("I");
 			}
 		}
 		else
-        {
+        	{
 			for (int i = 0; i<unit; i++)
-				str.append("I");
+			str.append("I");
 		}
 	}
 	this->Roman = str;
@@ -205,7 +205,6 @@ void RomanNumeral::toDecimal()
 	int result = 0;
 	string number = this->Roman;
 	const int length = number.length();
-	
 	
 	for (int i = 0; i < length; ++i)
 	{
@@ -218,11 +217,11 @@ void RomanNumeral::toDecimal()
 			} 
 			else if (number[i + 1] == 'V')
 			{
-                result += 4;
-                ++i;
+                		result += 4;
+               			 ++i;
 			} 
 			else
-            {
+            		{
 				result += 1;
 			}
 		}
@@ -236,7 +235,7 @@ void RomanNumeral::toDecimal()
 			else if (number[i + 1] == 'L') 
 			{ 
 				result += 40;
-                ++i;
+               	 		++i;
 			} 
 			else 
 			{ 
