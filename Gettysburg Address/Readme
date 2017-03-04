@@ -1,0 +1,12 @@
+This program displays a few attributes of the famous Gettysburg address by Abe Lincoln.
+
+Input a text file of the address and it will display:
+Number of Lines
+Number of Characters
+Number of Words
+Number of Uppercase letters
+Number of Lowercase letters
+Number of spaces
+Number of punctuation marks
+
+This was my first CPP program to read a text file using the ifstream class. 
