@@ -1,0 +1,7 @@
+This program displays the laws of probability in action using the famous Monty Hall Problem from the famous 
+Let's Make A Deal game show. 
+
+The program simulates 100 cases and displays if the original choice of door was the winner
+or was it required to change your choice to the other door. 
+
+This program concentrates on use of functions and rand number generator rand().
