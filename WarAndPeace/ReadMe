@@ -1,2 +1,3 @@
-This is a program where I have worked with reading an input text file and extracting and grouping similar data
-the program consists of a class with required functions for data readin, analysis and formatting 
+This is a program where I have worked with reading an input text file and searched for required data.
+The data required are the names of 3 recurring characters in the book "War and Peace"
+The program prints out the various line numbers where the names of the characters are printed in the book
